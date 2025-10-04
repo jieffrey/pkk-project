@@ -1,4 +1,5 @@
-import { Geist, Geist_Mono, Bagel_Fat_One } from "next/font/google";
+import { Geist, Geist_Mono} from "next/font/google";
+import { Bagel_Fat_One } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
