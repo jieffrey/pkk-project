@@ -1,4 +1,5 @@
 import { Bagel_Fat_One } from "next/font/google";
+import { FaSearch } from 'react-icons/fa';
 
 const bagelFatone = Bagel_Fat_One({
     variable: "--font-bagel",
@@ -12,7 +13,7 @@ export default function Topbar() {
         {/* Topbar */}
         <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 bg-[#EBF1F1] py-2">
         <div className="flex-1 flex justify-center mb-2 md:mb-0">
-            <p className="text-xs md:text-sm text-black text-center md:text-left">
+            <p className="text-xs md:text-sm     text-black text-center md:text-center">
             Free Standard Delivery & 7 Day Free Returns
             </p>
         </div>
@@ -29,13 +30,13 @@ export default function Topbar() {
       {/* Navbar */}
         <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 py-4 bg-white shadow gap-4 md:gap-0">
         {/* Logo */}
-        <div className="flex items-center justify-center gap-2">
+        <div className="flex items-center justify-center">
             <p className={`text-lg md:text-xl text-[#262D63] ${bagelFatone.className}`}>Craft</p>
             <p className={`text-lg md:text-xl text-[#8D88C3] ${bagelFatone.className}`}>Mart</p>
         </div>
 
         {/* Menu */}
-        <nav className="hidden md:flex gap-6 text-sm text-black font-medium">
+        <nav className="hidden md:flex gap-6 text-sm text-black font-bold">
             <a href="#">Home</a>
             <a href="#">Categories</a>
             <a href="#">Trending</a>
@@ -44,8 +45,7 @@ export default function Topbar() {
 
         {/* Action */}
         <div className="flex items-center gap-3 md:gap-4 text-black">
-            <button className="text-sm md:text-base">untuk searh icon</button>
-            <button className="text-sm md:text-base">untuk cart icon</button>
+            <FaSearch className=""/>
         </div>
         </div>
     </header>
