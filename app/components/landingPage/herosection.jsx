@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Hero() {
     return(
-        <div className="w-full min-h-[500px] flex items-center justify-between px-12 bg-gradient-to-r from-purple-100 to-blue-100">
+        <div className="w-full h-full flex items-center justify-between px-12 bg-gradient-to-r from-purple-100 to-blue-100">
             {/* left section */}
             <div className="max-w-lg">
                 <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
