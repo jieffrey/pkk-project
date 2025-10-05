@@ -1,40 +1,37 @@
+import { FaHandHoldingUsd } from "react-icons/fa";
+import { MdVerified } from 'react-icons/md';
+import { FaBoxesPacking } from 'react-icons/fa6';
+
 export default function CategorySection() {
     return (
-        <section className="py-10 text-center bg-white">
-            <h2 className="text-2xl font-bold text-black">Choose your Category</h2>
-            <p className="text-gray-500">
+        <section className="py-12 text-center bg-white md:h-[300px]">
+            {/* <h2 className="text-2xl md:text-3xl font-bold text-black mb-2">
+                Choose your Category
+            </h2>
+            <p className="text-gray-500 mb-8 text-sm md:text-base">
                 Each creation is a piece of someone’s passion.
-            </p>
+            </p> */}
 
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:max-w-7xl md:gap-20 mx-auto">
                 {/* Card 1 */}
-                <div className="min-w-[200px] max-w-[250px] mx-auto rounded-lg overflow-hidden shadow hover:scale-105 transition bg-gradient-to-r from-purple-100 to-blue-100">
-                    <img
-                        src="/images/aksesori1.jpg"
-                        alt="Icon"
-                        className="w-full h-40 object-cover"
-                    />
-                    <h3 className="py-2 font-bold text-black">Aksesoris</h3>
+                <div className="flex flex-col items-center justify-center p-10 rounded-xl shadow-md hover:scale-105 transition bg-gradient-to-r from-purple-100 to-blue-100">
+                    <FaHandHoldingUsd className="w-10 h-10 text-[#5D6B6B] mb-3" />
+                    <h3 className="font-semibold text-[#262D63] text-lg">Affordable Price</h3>
+                    <p className="text-xs text-gray-500 font-bold">Craft Mart sells various products at affordable prices for its customers.</p>
                 </div>
 
                 {/* Card 2 */}
-                <div className="min-w-[200px] max-w-[250px] mx-auto rounded-lg overflow-hidden shadow hover:scale-105 transition bg-gradient-to-r from-purple-100 to-blue-100">
-                    <img
-                        src="/images/aksesori2.jpg"
-                        alt="Icon2"
-                        className="w-full h-40 object-cover"
-                    />
-                    <h3 className="py-2 font-bold text-black">Aksesoris</h3>
+                <div className="flex flex-col items-center justify-center p-6 rounded-xl shadow-md hover:scale-105 transition bg-gradient-to-r from-purple-100 to-blue-100">
+                    <MdVerified className="w-10 h-10 text-[#5D6B6B] mb-3" />
+                    <h3 className="font-semibold text-[#262D63] text-lg">Guaranteed Quality</h3>
+                    <p className="text-xs text-gray-500 font-bold">Craft Mart has been tested to meet standards and quality.</p>
                 </div>
 
                 {/* Card 3 */}
-                <div className="w-115 md:min-w-[200px] md:max-w-[200px] mx-auto col-span-2 md:col-span-1 rounded-lg overflow-hidden shadow hover:scale-105 transition bg-gradient-to-r from-purple-100 to-blue-100">
-                    <img
-                        src="/images/placeholder.jpg"
-                        alt="Icon3"
-                        className="w-full h-40 object-cover"
-                    />
-                    <h3 className="py-2 font-bold text-black">Coming Soon</h3>
+                <div className="flex flex-col items-center justify-center p-6 rounded-xl shadow-md hover:scale-105 transition bg-gradient-to-r from-purple-100 to-blue-100 col-span-2 md:col-span-1">
+                    <FaBoxesPacking className="w-10 h-10 text-[#5D6B6B] mb-3" />
+                    <h3 className="font-semibold text-[#262D63] text-lg">Wide Range Of Product</h3>
+                    <p className="text-xs text-gray-500 font-bold">Craft Mart offers a variety of categories to meet all your needs.</p>
                 </div>
             </div>
         </section>

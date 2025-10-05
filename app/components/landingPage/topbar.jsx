@@ -1,5 +1,5 @@
 import { Bagel_Fat_One } from "next/font/google";
-import { FaSearch } from 'react-icons/fa';
+import { FaSearch, FaCartArrowDown} from 'react-icons/fa';
 
 const bagelFatone = Bagel_Fat_One({
     variable: "--font-bagel",
@@ -45,7 +45,8 @@ export default function Topbar() {
 
         {/* Action */}
         <div className="flex items-center gap-3 md:gap-4 text-black">
-            <FaSearch className=""/>
+            <FaSearch className="text-lg"/>
+            <FaCartArrowDown className="text-lg"/>
         </div>
         </div>
     </header>

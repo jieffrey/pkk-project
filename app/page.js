@@ -1,6 +1,7 @@
 import Topbar from "./components/landingPage/topbar"
 import Hero from "./components/landingPage/herosection"
 import CategorySection from "./components/landingPage/categorysection"
+import Circle from "./components/landingPage/bulatbulat"
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Topbar/>
       <Hero/>
       <CategorySection/>
+      <Circle/>
     </div>
   )
 }

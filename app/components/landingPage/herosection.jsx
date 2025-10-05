@@ -5,8 +5,8 @@ export default function Hero() {
             <div className="max-w-lg text-center md:text-left mb-8 md:mb-0">
                 <h1 className="text-3xl md:text-5xl font-extrabold text-[#262D63] mb-4 leading-snug">
                     Unleash your
-                    <span class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-pink-500">
-                        <span class="relative text-white dark:text-[#262D63]">Creativity</span>
+                    <span className="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-pink-500">
+                        <span className="relative text-white dark:text-[#262D63]">Creativity</span>
                     </span>
                 </h1>
                 <p className="text-gray-600 mb-6 text-sm md:text-base">
