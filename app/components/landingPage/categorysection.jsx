@@ -5,13 +5,6 @@ import { FaBoxesPacking } from 'react-icons/fa6';
 export default function CategorySection() {
     return (
         <section className="py-12 text-center bg-white md:h-[300px]">
-            {/* <h2 className="text-2xl md:text-3xl font-bold text-black mb-2">
-                Choose your Category
-            </h2>
-            <p className="text-gray-500 mb-8 text-sm md:text-base">
-                Each creation is a piece of someone’s passion.
-            </p> */}
-
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:max-w-7xl md:gap-20 mx-auto">
                 {/* Card 1 */}
                 <div className="flex flex-col items-center justify-center p-10 rounded-xl shadow-md hover:scale-105 transition bg-gradient-to-r from-purple-100 to-blue-100">

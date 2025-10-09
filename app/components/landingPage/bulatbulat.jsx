@@ -12,8 +12,8 @@ export default function Circle() {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:max-w-5xl md:gap-20 mx-auto">
                 {/* Card 1 */}
-                <div className="flex flex-col items-center justify-center p-10 rounded-full shadow-md hover:scale-105 transition bg-gradient-to-r from-purple-100 to-blue-100">
-                    <FaHandHoldingUsd className="w-10 h-10 text-[#5D6B6B] mb-3" />
+                <div className="w-50 h-50 flex flex-col items-center justify-center p-10 rounded-full shadow-md hover:scale-105 transition bg-gradient-to-r from-purple-100 to-blue-100">
+                    {/* <FaHandHoldingUsd className="w-10 h-10 text-[#5D6B6B] mb-3" /> */}
                     <h3 className="font-semibold text-[#262D63] text-lg">Affordable Price</h3>
                 </div>
 
