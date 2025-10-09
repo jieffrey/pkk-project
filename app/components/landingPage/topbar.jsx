@@ -1,5 +1,6 @@
 import { Bagel_Fat_One } from "next/font/google";
 import { FaSearch, FaCartArrowDown} from 'react-icons/fa';
+import Link from "next/link";
 
 const bagelFatone = Bagel_Fat_One({
     variable: "--font-bagel",
@@ -13,17 +14,17 @@ export default function Topbar() {
         {/* Topbar */}
         <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-8 bg-[#EBF1F1] py-2">
         <div className="flex-1 flex justify-center mb-2 md:mb-0">
-            <p className="text-xs md:text-sm     text-black text-center md:text-center">
+            <p className="text-xs md:text-sm text-black text-center md:text-center">
             Free Standard Delivery & 7 Day Free Returns
             </p>
         </div>
         <div className="flex gap-3 md:gap-5">
-            <button className="px-8 py-2  bg-white rounded-lg border border-black text-xs md:text-sm text-black font-bold hover:bg-[#262D63] hover:text-white transition">
+            <Link href='/Login' className="px-8 py-2  bg-white rounded-lg border border-black text-xs md:text-sm text-black font-bold hover:bg-[#262D63] hover:text-white transition">
             LOGIN
-            </button>
-            <button className="px-8 py-2 bg-white rounded-lg border border-black text-xs md:text-sm text-black font-bold hover:bg-[#262D63] hover:text-white transition">
+            </Link>
+            <Link href='/Register' className="px-8 py-2 bg-white rounded-lg border border-black text-xs md:text-sm text-black font-bold hover:bg-[#262D63] hover:text-white transition">
             REGISTER
-            </button>
+            </Link>
         </div>
         </div>
 
