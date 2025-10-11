@@ -4,6 +4,7 @@ import CategorySection from "./components/landingPage/categorysection"
 import Circle from "./components/landingPage/bulatbulat"
 import TrendingSection from "./components/landingPage/trending"
 import GallerySection from "./components/landingPage/gambar"
+import Footer from "./components/landingPage/footer"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Circle/>
       <TrendingSection/>
       <GallerySection/>
+      <Footer/>
     </div>
   )
 }
